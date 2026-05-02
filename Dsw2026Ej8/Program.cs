@@ -11,6 +11,10 @@
             var problema = new Problema2();
             string resultado2 = problema.CrearResumenVenta(223, "Chupetin", 2, 100);
             Console.WriteLine(resultado2);
+            var problema2 = new Problema4();
+            double resultado4 = problema2.CalcularPromedio(10, 4, 7);
+            Console.WriteLine(resultado4);
+
         }
     }
 }
